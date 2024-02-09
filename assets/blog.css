@@ -45,6 +45,7 @@
     margin-left: 10px;
     border-style: dashed;
     width: 100%;
+    margin-bottom:20px;
 }
 footer{
     background-color: #a29898;
@@ -54,6 +55,46 @@ footer{
     position: fixed;
     bottom: 0;
 }
+#layanan {
+    margin-top: 20px;
+}
+
+#layanan h2 {
+    color: #333;
+}
+
+#layanan ul {
+    list-style: none;
+    padding: 0;
+}
+
+#layanan li {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.layanan-nama {
+    color: #666;
+}
+
+.layanan-harga {
+    color: #009688;
+    font-weight: bold;
+}
+
+.gratis-antar-jemput {
+    font-size: 1.2em;
+    color: #009688;
+    font-weight: bold;
+}
+
+.wilayah {
+    font-size: 0.8em;
+    color: #666;
+    margin-top: 5px;
+}
+
 @media screen and (max-width: 390.5px) {
         .logo{
             width: 60%;
