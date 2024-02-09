@@ -54,6 +54,7 @@ footer{
     text-align: center;
     position: fixed;
     bottom: 0;
+    height:40px;
 }
 #layanan {
     margin-top: 20px;
