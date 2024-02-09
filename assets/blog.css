@@ -97,6 +97,36 @@ footer{
     margin-top: -30px;
 }
 
+#syarat-ketentuan {
+    margin-top: 20px;
+}
+
+#syarat-ketentuan h2 {
+    color: #333;
+}
+
+#syarat-ketentuan ul {
+    list-style: none;
+    padding: 0;
+}
+
+#syarat-ketentuan li {
+    margin-bottom: 10px;
+    color: #666;
+}
+
+#syarat-ketentuan li::before {
+    content: "\2022"; /* Unicode karakter untuk bullet point */
+    color: #009688;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+#syarat-ketentuan li:last-child {
+    margin-bottom: 0;
+}
+
 @media screen and (max-width: 390.5px) {
         .logo{
             width: 60%;
