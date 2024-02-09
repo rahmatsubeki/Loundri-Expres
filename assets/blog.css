@@ -1,0 +1,24 @@
+.rows_slider{
+        width: -webkit-fill-available;
+        display: flex;
+    }
+    #daftar{
+        background-color: #ffffff6e;
+    }
+    .daftar{
+        position: absolute;
+        height: fit-content;
+        margin-top: 10%;
+        margin-left: 10%;
+    }
+    #login{
+        width: 75%;
+        display: none;
+        margin-top: inherit;
+    }
+    #daftar{
+        display: none;
+       margin-top: inherit;
+       max-height: 80vh; /* Tinggi maksimum, sesuaikan dengan kebutuhan */
+        overflow-y: auto;
+    }
