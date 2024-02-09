@@ -99,6 +99,10 @@ footer{
 
 #syarat-ketentuan {
     margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+    padding-bottom: 30px;
 }
 
 #syarat-ketentuan h2 {
