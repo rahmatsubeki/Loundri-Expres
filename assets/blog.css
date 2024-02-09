@@ -22,3 +22,9 @@
        max-height: 80vh; /* Tinggi maksimum, sesuaikan dengan kebutuhan */
         overflow-y: auto;
     }
+.logo{
+    width: 25%;
+    height: 25%;
+    margin-top: 10px;
+    margin-left: 30%;
+}
