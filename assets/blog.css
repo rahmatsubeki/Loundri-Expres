@@ -38,6 +38,22 @@
 .banner h1{
         font-size:40px;
 }
+#kontak{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-left: 10px;
+    border-style: dashed;
+    width: 100%;
+}
+footer{
+    background-color: #a29898;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
 @media screen and (max-width: 390.5px) {
         .logo{
             width: 60%;
